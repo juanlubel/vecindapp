@@ -1,0 +1,45 @@
+name: vecinapp
+description: La App que gestiona tu comunidad
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
+  rxdart: ^0.24.0
+  json_annotation: ^3.0.1
+
+  hive: ^1.4.1+1
+  hive_flutter: ^0.3.0+2
+
+  cupertino_icons: ^0.1.2
+
+  http: ^0.12.0+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^0.7.0+2
+  build_runner: ^1.8.0
+  json_annotation: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: nunito
+      fonts:
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 300
+
